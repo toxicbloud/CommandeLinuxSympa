@@ -3,6 +3,9 @@ man nomDeCommande#manuel des commandes ex: man ls affiche le manuel de la comman
 sudo apt-get install <packet> <packet 2> #<packet> = nom du paquet : apt-get install discord
 sudo apt-get update #met a jours les listes de paquetss
 sudo apt-get upgrade #met a jour tout les paquets
+a | b #pipe output from 'a' as input to 'b
+
+#sysadmin
 top #gestionnaires des taches en ligne de commande
 htop #gestionnaires des taches en ligne de commande ameliore
 ps #visionner les processus en cours
