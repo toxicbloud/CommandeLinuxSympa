@@ -7,6 +7,8 @@ a | b #pipe output from 'a' as input to 'b
 ls #liste tout ce qui se trouve dans le repertoire courant
 wget #telechargement en http wget http://monsite.fr/monimage.png
 curl #retourne le contenu d'une url ou l'enregistre avec l'option -o curl facebook.html https://facebook.com
+ssh u@host #log in to host as user “u” ex: ssh toxicbloud@mondns.net
+scp file.txt \ u@host #copier le fichier du serveur host vers notre machine    c comme ca que j ai pris tout les fichiers de mangeol5 oui oui
 
 #sysadmin
 netstat -r #affiche la table de routage
