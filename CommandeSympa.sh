@@ -4,6 +4,7 @@ sudo apt-get update #met a jours les listes de paquetss
 sudo apt-get upgrade #met a jour tout les paquets
 top #gestionnaires des taches en ligne de commande
 htop #gestionnaires des taches en ligne de commande ameliore
+ps #visionner les processus en cours
 
 ssh -L 5901:127.0.0.1:80 -N -f pirate@bidouilleur.codes #tunnel ssh qui map le port 5901 du pc executant la console au port 80 du serveur distant bidouilleur.codes
 
