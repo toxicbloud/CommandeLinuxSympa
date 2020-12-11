@@ -5,6 +5,8 @@ sudo apt-get update #met a jours les listes de paquetss
 sudo apt-get upgrade #met a jour tout les paquets
 a | b #pipe output from 'a' as input to 'b
 ls #liste tout ce qui se trouve dans le repertoire courant
+wget #telechargement en http wget http://monsite.fr/monimage.png
+curl #retourne le contenu d'une url ou l'enregistre avec l'option -o curl facebook.html https://facebook.com
 
 #sysadmin
 netstat -r #affiche la table de routage
