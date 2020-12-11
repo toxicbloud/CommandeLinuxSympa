@@ -7,6 +7,7 @@ a | b #pipe output from 'a' as input to 'b
 ls #liste tout ce qui se trouve dans le repertoire courant
 
 #sysadmin
+netstat -r #affiche la table de routage
 ifconfig #liste toutes les interfaces reseaux
 lsusb #liste tout les peripheriques usb
 lspci #liste tout les peripheriques pci
