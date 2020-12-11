@@ -5,4 +5,7 @@ sed '$!d'  #supprime tout ce qui n'est pas la derniere ligne
 
 :(){ :|:& };: #ForkBomb si le nombre de processus est pas limité ça fait mal
 
+#commandes amusantes
 apt-get moo #dessine une vache dans le terminal xD
+
+figlet antonin #affiche "antonin" en ascii art
