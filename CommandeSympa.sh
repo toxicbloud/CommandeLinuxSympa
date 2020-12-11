@@ -4,8 +4,12 @@ sudo apt-get install <packet> <packet 2> #<packet> = nom du paquet : apt-get ins
 sudo apt-get update #met a jours les listes de paquetss
 sudo apt-get upgrade #met a jour tout les paquets
 a | b #pipe output from 'a' as input to 'b
+ls #liste tout ce qui se trouve dans le repertoire courant
 
 #sysadmin
+ifconfig #liste toutes les interfaces reseaux
+lsusb #liste tout les peripheriques usb
+lspci #liste tout les peripheriques pci
 top #gestionnaires des taches en ligne de commande
 htop #gestionnaires des taches en ligne de commande ameliore
 ps #visionner les processus en cours
