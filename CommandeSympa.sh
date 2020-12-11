@@ -1,4 +1,5 @@
 #commande de base
+man nomDeCommande#manuel des commandes ex: man ls affiche le manuel de la commande ls
 sudo apt-get install <packet> <packet 2> #<packet> = nom du paquet : apt-get install discord
 sudo apt-get update #met a jours les listes de paquetss
 sudo apt-get upgrade #met a jour tout les paquets
