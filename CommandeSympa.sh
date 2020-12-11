@@ -9,6 +9,9 @@ wget #telechargement en http wget http://monsite.fr/monimage.png
 curl #retourne le contenu d'une url ou l'enregistre avec l'option -o curl facebook.html https://facebook.com
 ssh u@host #log in to host as user “u” ex: ssh toxicbloud@mondns.net
 scp file.txt \ u@host #copier le fichier du serveur host vers notre machine    c comme ca que j ai pris tout les fichiers de mangeol5 oui oui
+sed s/foo/bar/g file #remplace foo dans file par bar
+awk '{ print $5 }' file #affiche le 5eme mot de chaque ligne de file
+egrep “(foo|bar)” #trouve foo ou bar dans file
 
 #sysadmin
 netstat -r #affiche la table de routage
