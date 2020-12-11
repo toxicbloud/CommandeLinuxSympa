@@ -9,6 +9,7 @@ uptime #voir depuis combien de temps la machine est allume
 tcpdump #analyse de paquet
 monitor #monitoring
 cron #executer automatiquement des scripts a une heure et date precise ou regulierement
+vmstat #stat rapide du systeme
 
 ssh -L 5901:127.0.0.1:80 -N -f pirate@bidouilleur.codes #tunnel ssh qui map le port 5901 du pc executant la console au port 80 du serveur distant bidouilleur.codes
 
