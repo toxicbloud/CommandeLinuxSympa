@@ -1,4 +1,5 @@
 # CommandeLinuxSympa
 Liste des commandes sympa à utiliser principalement sur Linux
 
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
+[![star this repo](https://githubbadges.com/star.svg?user=toxicbloud&repo=CommandeLinuxSympa&style=default)](https://github.com/toxicbloud/CommandeLinuxSympa)
+[![fork this repo](https://githubbadges.com/fork.svg?user=toxicbloud&repo=CommandeLinuxSympa&style=default)](https://github.com/toxicbloud/CommandeLinuxSympa/fork)
