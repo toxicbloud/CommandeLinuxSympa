@@ -14,6 +14,7 @@ awk '{ print $5 }' file #affiche le 5eme mot de chaque ligne de file
 egrep “(foo|bar)” #trouve foo ou bar dans file
 
 #sysadmin
+wget http://checkip.dyndns.org/ -O - -o /dev/null | cut -d: -f 2 | cut -d' ' -f 2 | cut -d\< -f 1 # retourne l'IP public
 netstat -r #affiche la table de routage
 ifconfig #liste toutes les interfaces reseaux
 lsusb #liste tout les peripheriques usb
