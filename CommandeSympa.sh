@@ -41,4 +41,5 @@ docker exec -it <container name> bash #lance un terminal bash dans le container 
 #commandes amusantes
 apt-get moo #dessine une vache dans le terminal xD
 figlet antonin #affiche "antonin" en ascii art
+ figlet isidore > test.txt # dessine en ascii art le mot isidore dans un fichier test.txt
 cmatrix #fait defiler les chiffres dans le terminal comme dans matrix
