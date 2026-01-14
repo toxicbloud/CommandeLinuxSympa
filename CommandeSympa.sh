@@ -43,6 +43,7 @@ apt-get moo #dessine une vache dans le terminal xD
 figlet antonin #affiche "antonin" en ascii art
  figlet isidore > test.txt # dessine en ascii art le mot isidore dans un fichier test.txt
 cmatrix #fait defiler les chiffres dans le terminal comme dans matrix
+echo -ne "\033]0;Mon Super Onglet\007" # change le nom de l'onglet du terminal
 
 #utiles
 rsync -aP --remove-source-files <source> <destination> # permet de faire des mv avec une progression
