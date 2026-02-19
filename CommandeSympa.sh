@@ -47,3 +47,4 @@ echo -ne "\033]0;Mon Super Onglet\007" # change le nom de l'onglet du terminal
 
 #utiles
 rsync -aP --remove-source-files <source> <destination> # permet de faire des mv avec une progression
+date -d @<timestamp> # affiche en fonction du locale le timestamp en une date et heure lisible
